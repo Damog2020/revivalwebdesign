@@ -1,0 +1,280 @@
+/* UNIVERSAL STYLES***************************** */
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+div, h1, h2, h3, h4, h5, h6, p, a{
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    border: 6px dotted grey;
+    border-bottom: none;
+    width: 4%;
+    margin: 60px auto;
+}
+
+/* HEADER SECTION************************** */
+
+.header-container{
+    background-color: #cbeaed;
+    height: 300px;
+}
+
+.header-contact-container{
+    position: relative;
+    height: 100px;
+}
+
+.header-email,
+.header-mobile{
+    display: inline-block;
+    font-size: 1.125rem;
+    font-family: 'Kaushan Script', cursive;
+    color: #056674;
+    position: absolute;
+    font-weight: bold;
+}
+
+.header-email{
+    top: 20px;
+    left: 40px;
+}
+
+.header-mobile{
+    top: 20px;
+    right: 40px;
+}
+
+.header-brand-container{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    color: #056674;
+}
+
+.header-brand{
+    font-size: 3.75rem;
+}
+
+.header-author{
+    font-size: 24px;
+}
+
+.nav-links-container{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.nav-links{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding: 0 20px;
+    margin: 0 20px;
+    color: #056674;
+}
+
+.nav-links:hover{
+    background-color: lightgrey;
+}
+
+
+
+/* ABOUT ME********************************* **************************/
+
+.avatar-container{
+    text-align: center;
+}
+
+.avatar-image{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+}
+
+
+.about-me-container{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-me-header{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #056674;
+}
+
+.about-me-paragraph{
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: lightgray;
+}
+
+/* CODING EXPERIENCE AND EDUCATION************************ */
+
+.experience-container{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.experience-header{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #056674;
+}
+
+.experience-paragraph{
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+table{
+    margin: 20px auto;
+    font-weight: 600;
+    border: 2px solid grey;
+}
+
+th{
+    text-decoration: underline;
+}
+
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: lightgray;
+}
+
+/* MY SKILLS SECTION******************** */
+
+span{
+    color: red;
+    font-weight: bold;
+}
+
+.skills-container{
+    margin-bottom: 160px;
+
+}
+
+.skills-heading,
+.skills-header{
+    text-decoration: underline;
+    color: #056674;
+}
+
+
+.skill-row-coding{
+    width: 50%;
+    margin: 60px auto;
+    text-align: left;
+    line-height: 2;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    
+}
+
+.skill-row-computing{
+    width: 50%;
+    margin: 80px auto;
+    text-align: left;
+    line-height: 2;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    
+}
+
+.code-img,
+.computing-img{
+    width: 25%;
+    border-radius: 100%;
+}
+
+.code-img{
+    float: left;
+    margin-right: 30px;
+}
+
+.computing-img{
+    height: 150.63px;
+    float: right;
+    margin-left: 30px;
+}
+
+/* FOOTER SECTION************************************************* */
+
+.footer-top{
+    text-align: center;
+    background-color: lightgrey;
+    margin-top: 60px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    color: #056674;
+}
+
+.footer-header{
+    text-decoration: underline;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.footer-email{
+    margin-bottom: 20px;
+}
+
+.social-icons{
+    width: 50px;
+    height: 50px;
+    margin: 20px 5px;
+}
+
+
+.footer-bottom{
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.footer-links{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #056674;
+    padding: 10px 15px;
+    margin: 0 20px;
+}
+
+.footer-links:hover{
+    background-color: rgb(185, 174, 174);
+}
+
+.copyright{
+    margin-top: 40px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+
+
